@@ -40,6 +40,21 @@
 
 .left {
     left: -80px;
+}.star-font{
+    font-family: "Roboto", sans-serif;
+font-size: 18px;
+font-weight: 700;
+line-height: 29.11px;
+text-align: left;
+
+}
+.font-span{
+    font-family: "Roboto", sans-serif;
+font-size: 18px;
+font-weight: 400;
+line-height: 29.11px;
+text-align: left;
+
 }
 
 .font-roboto-400 {
