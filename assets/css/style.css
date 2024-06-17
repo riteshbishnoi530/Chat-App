@@ -108,6 +108,10 @@ text-align: left;
     padding: 15px 42px;
     border-radius: 60px;
 }
+.mt-180{
+    margin-top: 180px;
+    margin-bottom: 30px;
+}
 
 .button-2 {
     background: #1E71FF1A;
@@ -196,6 +200,9 @@ text-align: left;
 
     input[type="checkbox"]:checked~.navbar-items {
         right: 0;
+    }
+    .star{
+        flex-direction: column;
     }
 
     .font-roboto-500 {
