@@ -20,13 +20,37 @@
 .bg-color {
     background: #1E71FF;
 }
-
+.pricing{
+    color: #2B353EB2;
+}
+.star-5{
+    color: #2B353EB2;
+}
 .try-it-free {
     background: #FFFFFF33;
     border: 0;
     padding: 12px 24px;
     border-radius: 210px;
-
+}
+.try-it-free:hover{
+    background: none;
+    border: 2px solid #FFFFFF33;
+    opacity: 60%;
+}
+.color-team{
+    color: #2B353EB2;
+}
+.op-hover:hover{
+    opacity: 60%;
+}
+.margn-botton{
+    margin-bottom: 146px;
+}
+.padding-bottom{
+    padding-bottom: 160px;
+}
+.mt-90{
+    margin-top: 90px;
 }
 
 .font-poppins {
@@ -102,19 +126,19 @@ text-align: left;
 }
 
 .button {
-    background: #1E71FF;
+    background: none;
     border: 1px solid #FFFFFF;
     color: #FFFFFF;
     padding: 15px 42px;
     border-radius: 60px;
 }
 .mt-180{
-    margin-top: 180px;
+    margin-top: 150px;
     margin-bottom: 30px;
 }
 
 .button-2 {
-    background: #1E71FF1A;
+    background:none;
     border: 1px solid #1E71FF;
     color: #1E71FF;
     padding: 15px 42px;
@@ -144,6 +168,9 @@ text-align: left;
     max-width: 167px;
     margin-top: 90px;
 }
+.mb-60{
+    margin-bottom: 60px;
+}
 
 .color {
     color: #1E71FF;
@@ -151,6 +178,15 @@ text-align: left;
 
 .text-color {
     color: #2B353EB2;
+}
+.instant{
+    color: #2B353E;
+}
+.lorem{
+    color: #2B353EB2;
+}
+.mb-12{
+    margin-bottom: 12px;
 }
 
 .back-g-color {
@@ -165,7 +201,7 @@ text-align: left;
         width: 100%;
         height: 100%;
         justify-content: center;
-        background-color: #1E71FF;
+        background-color:#1E71FF;
         position: fixed !important;
         top: 0;
         right: -100%;
@@ -177,17 +213,11 @@ text-align: left;
     label[for="menubar"] {
         width: 32px;
         height: 20px;
-        top: 20px;
-        right: 20px;
         display: flex;
         flex-direction: column;
         justify-content: center;
         cursor: pointer;
         z-index: 5;
-    }
-
-    .bg-nav-blue {
-        background-color: #1E71FF;
     }
 
     label[for="menubar"] span {
@@ -222,8 +252,8 @@ text-align: left;
     }
 
     .font-poppins {
-        font-size: 35px;
-        line-height: 40px;
+        font-size: 50px;
+        line-height: 60px;
     }
 
     .poppins-500-45 {
@@ -234,5 +264,11 @@ text-align: left;
     .roboto-400-18 {
         font-size: 10px;
         line-height: 15px;
+    }
+    .mt-180{
+        margin-top: 20px;
+    }
+    .lg-center{
+        text-align: center
     }
 }
