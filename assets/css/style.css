@@ -128,35 +128,26 @@ text-align: left;
 .button {
     background: none;
     border: 1px solid #FFFFFF;
-    color: #FFFFFF;
     padding: 15px 42px;
     border-radius: 60px;
 }
 .mt-180{
-    margin-top: 150px;
+    margin-top: 100px;
     margin-bottom: 30px;
 }
 
 .button-2 {
-    background:none;
+
     border: 1px solid #1E71FF;
-    color: #1E71FF;
     padding: 15px 42px;
     border-radius: 60px;
+}
+.bg-none{
+    background: none;
 }
 
 .gap-30 {
     gap: 30px;
-}
-
-.button:hover {
-    background: #FFFFFF;
-    color: #1E71FF;
-}
-
-.button-2:hover {
-    background: #1E71FF;
-    color: #FFFFFF;
 }
 
 .ml-36 {
@@ -268,7 +259,5 @@ text-align: left;
     .mt-180{
         margin-top: 20px;
     }
-    .lg-center{
-        text-align: center
-    }
+    
 }
