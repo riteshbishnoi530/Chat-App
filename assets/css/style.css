@@ -3,7 +3,7 @@
 .container{
     max-width: 1120px !important;
 }
-.chat {
+.logo {
     font-family: "Poppins", sans-serif;
     font-size: 26px;
     font-weight: 600;
@@ -11,7 +11,7 @@
     letter-spacing: -0.02em;
 }
 
-.app {
+.app-font {
     font-family: "Poppins", sans-serif;
     font-size: 26px;
     font-weight: 200;
@@ -56,8 +56,8 @@
     margin-top: 80px;
 }
 .py-124{
-    padding-top: 124px;
-    padding-bottom: 124px;
+    padding-top: 50px;
+    padding-bottom: 30px;
 }
 .padding-y-184{
     padding-bottom:140px;
@@ -97,9 +97,13 @@ text-align: left;
 .font-roboto-400 {
     font-family: "Roboto", sans-serif;
     font-size: 21px;
-    font-weight: 400;
-    line-height: 24.61px;
+    font-weight: 400
 
+}
+.font-roboto-400-13{
+    font-family: "Roboto", sans-serif;
+    font-size: 13px;
+    font-weight: 400;
 }
 
 .font-roboto-500 {
@@ -135,7 +139,7 @@ text-align: left;
     font-family: "Roboto", sans-serif;
     font-size: 18px;
     font-weight: 400;
-    line-height: 29.11px;
+    line-height: normal;
 }
 
 .button {
@@ -167,6 +171,9 @@ text-align: left;
 .bg-none{
     background: none;
 }
+.max-width-566{
+    max-width: 566px !important;
+}
 
 .gap-30 {
     gap: 30px;
@@ -189,10 +196,11 @@ text-align: left;
     color: #2B353EB2;
 }
 .instant{
-    color: #2B353E;
+    color:#2B353E;
+
 }
 .lorem{
-    color: #2B353EB2;
+    color:#2B353EB2;
 }
 .mb-12{
     margin-bottom: 12px;
@@ -200,6 +208,9 @@ text-align: left;
 
 .back-g-color {
     background: #1E71FF1A;
+}
+.max-width-400{
+    max-width: 400px;
 }
 
 /*-------------------responsiv------------------------------------------------------*/
@@ -266,16 +277,36 @@ text-align: left;
     }
 
     .poppins-500-45 {
-        font-size: 22px;
-        line-height: 30px;
+        font-size: 35px;
+        line-height: 40px;
     }
 
     .roboto-400-18 {
-        font-size: 10px;
+        font-size: 14px;
         line-height: 15px;
     }
     .mt-180{
         margin-top: 20px;
     }
+    .max-width-467{
+        max-width: 467px;
+    }
+    .padding-y-184{
+        padding-bottom:50px;
+        padding-top: 20px;
+    }
+    .max-width-400{
+        max-width: 300px;
+    }
     
+}
+@media (max-width:512px){
+    .padding-y-184{
+        padding-bottom:50px;
+        padding-top: 0;
+    }
+    .poppins-500-45 {
+        font-size: 25px;
+        line-height: 30px;
+    }
 }
