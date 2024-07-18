@@ -52,12 +52,12 @@
 .padding-bottom{
     padding-bottom: 160px;
 }
-.mt-90{
-    margin-top: 80px;
+.mt-85{
+    margin-top: 85px;
 }
 .py-124{
-    padding-top: 120px;
-    padding-bottom: 100px;
+    padding-top: 110px;
+    padding-bottom: 145px;
 }
 .padding-y-184{
     padding-bottom:140px;
@@ -139,7 +139,7 @@ text-align: left;
     font-family: "Roboto", sans-serif;
     font-size: 18px;
     font-weight: 400;
-    line-height: normal;
+    line-height: 161%;
 }
 
 .button {
@@ -153,9 +153,12 @@ text-align: left;
     background: white;
     color: #1E71FF!important;
 }
-.mt-180{
-    margin-top: 100px;
-    margin-bottom: 30px;
+.mt-100{
+    margin-top: 40px;
+}
+.py-90{
+    padding-top: 80px;
+    padding-bottom: 72px;
 }
 
 .button-2 {
@@ -185,7 +188,11 @@ text-align: left;
 
 
 .mb-40{
-    margin-bottom: 40px;
+    margin-bottom: 50px;
+}
+.py-50{
+    padding-top: 85px;
+    padding-bottom: 30px;
 }
 
 .color {
@@ -204,6 +211,9 @@ text-align: left;
 }
 .mb-12{
     margin-bottom: 12px;
+}
+.w-92{
+    width: 92% !important;
 }
 
 .back-g-color {
@@ -311,6 +321,9 @@ text-align: left;
     .line{
         max-width: 90px;
     }
+    .mt-90{
+        margin-top: 20px;
+    }
     
 }
 @media (max-width:512px){
@@ -324,6 +337,6 @@ text-align: left;
     }
     .py-124{
         padding-top: 50px;
-        padding-bottom: 20px;
+        padding-bottom: 40px;
     }
 }
